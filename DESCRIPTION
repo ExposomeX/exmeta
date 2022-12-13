@@ -1,0 +1,24 @@
+Package: exmeta
+Title: Provides users preliminary information retrieval and screening for meta-analysis.
+Version: 1.0.0
+Authors@R: 
+    c(
+    person(given='Weinan',
+    family = 'Lin',
+    role= c('aut','cre'),
+    email = "weinanlin@pku.edu.cn"),
+    person(given='bin',
+    family = 'Wang',
+    role= c('aut','cph'),
+    email = "binwang@pku.edu.cn")
+    )
+Description: Providing users preliminary information retrieval and screening for
+    meta-analysis. It can also summarize the conclusions and effect values
+    of previous studies (available in DB_Meta), which can help users form a 
+    preliminary view of the research topic and further validate the result from 
+    the present study.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Imports: httr,vroom,ggplot2,readxl,gridExtra,writexl
